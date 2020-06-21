@@ -10,7 +10,7 @@ class DropZone extends React.Component {
               <div>
                 <div className={`dropzone ${this.props.stylesdropzone}`}>
                   <input type="file" className="inputfile" id="fileElem" multiple accept="image/*" onChange={this.props.handleFiles} />
-                  <label className="button" htmlFor="fileElem"><img src={uploadImage} /><p>Drag & drop or <span className="u-tx-primary u-fw-bold">Browser</span></p></label>
+                  <label className="button" htmlFor="fileElem"><img src={uploadImage} alt="upload"/><p>Click to<span className="u-tx-primary u-fw-bold"> Upload</span></p></label>
                 </div>
               </div>
             )}

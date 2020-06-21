@@ -2,9 +2,6 @@ import React from 'react'
 import { SelectButton } from '../Components/Atom'
 
 class SelectButtonPages extends React.Component {
-  constructor() {
-    super()
-  }
   render () {
     return (
       <div>

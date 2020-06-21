@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { NextNavButton } from '../Components/Atom';
 import Box from '../Components/Atom/Box';
-import Icon from '../Components/Atom/Icon';
 
 class NextNavButtonPage extends Component {
 

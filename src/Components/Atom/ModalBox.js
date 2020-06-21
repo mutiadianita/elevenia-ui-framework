@@ -1,6 +1,4 @@
 import React from 'react'
-import Tooltip from './Tooltip'
-import Button from './Button'
 import { Icon } from './'
 import uploadImage from '../../assets/images/ic_large_upload.svg'
 
@@ -36,7 +34,7 @@ class ModalBox extends React.Component {
             {this.props.upload && (
               <div>
                 <div className="u-tx-center upload">
-                  <img src={uploadImage}/>
+                  <img src={uploadImage} alt="upload"/>
                   <p className="desc">Drag & drop or <span>Browser</span></p>
                   <p className="subdesc">Lorem ipsum dolor sit amet JPG, PNG, PDF with maximum size 500 Kb</p>
                 </div>
@@ -79,7 +77,7 @@ class ModalBox extends React.Component {
             {this.props.upload && (
               <div>
                 <div className="u-tx-center upload">
-                  <img src={uploadImage}/>
+                  <img src={uploadImage}  alt="upload"/>
                   <p className="desc">Drag & drop or <span>Browser</span></p>
                   <p className="subdesc">Lorem ipsum dolor sit amet JPG, PNG, PDF with maximum size 500 Kb</p>
                 </div>

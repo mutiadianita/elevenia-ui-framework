@@ -2,16 +2,12 @@ import React from 'react'
 import { Button, Icon } from '../Components/Atom'
 
 class ButtonPage extends React.Component {
-  // constructor(props) {
-  //   super(props)
-  // }
   handleClick = () => {
     return (
       console.log('test')
     )
   }
   render () {
-    var disabled = false;
     return (
       <div>
         <h1 className="title">Button</h1>

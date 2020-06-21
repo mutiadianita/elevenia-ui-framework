@@ -78,7 +78,9 @@ class Pagination extends PureComponent {
   setPage = page => {
     this.setState(
       { page },
-      () => this.props.onChange(this.state.page)
+      () => this.props.hasOwnProperty('onChange')
+        ? this.props.onChange(this.state.page)
+        : null
     )
   }
 

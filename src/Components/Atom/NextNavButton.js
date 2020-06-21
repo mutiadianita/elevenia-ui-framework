@@ -3,7 +3,7 @@ import { Button, Icon } from './';
 import PropTypes from 'prop-types';
 
 const NextNavButton = (props) => {
-  const { styles, disabled, click, direction, children } = props;
+  const { styles, disabled, click, direction } = props;
 
   const directionIcon = (icon) => {
     switch (icon) {

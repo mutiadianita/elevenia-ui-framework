@@ -367,7 +367,7 @@ class ModalBoxPage extends React.Component {
         </div>
         <h1>Mobile</h1>
         <div style={{backgroundColor: 'rgba(21,24,35,0.8)', minHeight: '50vh', padding: '24px'}}>
-          <h2 className="subtitle u-tx-white"></h2>
+          {/* <h2 className="subtitle u-tx-white"></h2> */}
             <ModalBox
               mobile
               close

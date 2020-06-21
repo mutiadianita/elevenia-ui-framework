@@ -1,8 +1,12 @@
-import React from 'react';
 
-const Float = () => {
-  return (
-    <div>
+
+import React from 'react'
+
+class Float extends React.Component {
+  render () {
+    return (
+      <div>
+        
       <h1 className="title">Float</h1>
       <p className="u-tx-info">These utility classes float an element to the left or right,
          or disable floating, based on the current viewport size using 
@@ -15,8 +19,9 @@ const Float = () => {
           <li><span className="u-tx-primary">.u-fl-right</span> </li>
           <li><span className="u-tx-primary">.u-fl-none</span> </li>
         </ul>
-    </div>
-  );
-};
+      </div>
+    )
+  }
+}
 
 export default Float;

@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-import TabsItem from './TabsItem';
-
 class Tabs extends Component {
   static propTypes = {
     children: PropTypes.any.isRequired,

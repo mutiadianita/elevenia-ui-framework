@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Tabs, TabsItem, Box, Accordion,IconSpecial } from '../Components/Atom';
+import { Tabs, TabsItem, Accordion,IconSpecial } from '../Components/Atom';
 
 class MegaMenuPage extends Component {
     state = {
@@ -20,99 +20,99 @@ class MegaMenuPage extends Component {
                       <li>
                         <Accordion label="Gaun & Terusan">
                           <ul>
+                            {/* <li><a href="" className="u-tx-info">Test1</a></li>
                             <li><a href="" className="u-tx-info">Test1</a></li>
                             <li><a href="" className="u-tx-info">Test1</a></li>
                             <li><a href="" className="u-tx-info">Test1</a></li>
-                            <li><a href="" className="u-tx-info">Test1</a></li>
-                            <li><a href="" className="u-tx-info">Test1</a></li>
+                            <li><a href="" className="u-tx-info">Test1</a></li> */}
                           </ul>
                         </Accordion>
                       </li>
                       <li>
                         <Accordion label="Atasan">
                           <ul>
+                            {/* <li><a href="" className="u-tx-info">Test1</a></li>
                             <li><a href="" className="u-tx-info">Test1</a></li>
                             <li><a href="" className="u-tx-info">Test1</a></li>
                             <li><a href="" className="u-tx-info">Test1</a></li>
-                            <li><a href="" className="u-tx-info">Test1</a></li>
-                            <li><a href="" className="u-tx-info">Test1</a></li>
+                            <li><a href="" className="u-tx-info">Test1</a></li> */}
                           </ul>
                         </Accordion>
                       </li>
                       <li>
                         <Accordion label="Batik">
                           <ul>
+                            {/* <li><a href="" className="u-tx-info">Test1</a></li>
                             <li><a href="" className="u-tx-info">Test1</a></li>
                             <li><a href="" className="u-tx-info">Test1</a></li>
                             <li><a href="" className="u-tx-info">Test1</a></li>
-                            <li><a href="" className="u-tx-info">Test1</a></li>
-                            <li><a href="" className="u-tx-info">Test1</a></li>
+                            <li><a href="" className="u-tx-info">Test1</a></li> */}
                           </ul>
                         </Accordion>
                       </li>
                       <li>
                         <Accordion label="Pakaian tidur & pakaian dalam">
                           <ul>
+                            {/* <li><a href="" className="u-tx-info">Test1</a></li>
                             <li><a href="" className="u-tx-info">Test1</a></li>
                             <li><a href="" className="u-tx-info">Test1</a></li>
                             <li><a href="" className="u-tx-info">Test1</a></li>
-                            <li><a href="" className="u-tx-info">Test1</a></li>
-                            <li><a href="" className="u-tx-info">Test1</a></li>
+                            <li><a href="" className="u-tx-info">Test1</a></li> */}
                           </ul>
                         </Accordion>
                       </li>
                       <li>
                         <Accordion label="Pakaian wanita plus size">
                           <ul>
+                            {/* <li><a href="" className="u-tx-info">Test1</a></li>
                             <li><a href="" className="u-tx-info">Test1</a></li>
                             <li><a href="" className="u-tx-info">Test1</a></li>
                             <li><a href="" className="u-tx-info">Test1</a></li>
-                            <li><a href="" className="u-tx-info">Test1</a></li>
-                            <li><a href="" className="u-tx-info">Test1</a></li>
+                            <li><a href="" className="u-tx-info">Test1</a></li> */}
                           </ul>
                         </Accordion>
                       </li>
                       <li>
                         <Accordion label="Rok">
                           <ul>
+                            {/* <li><a href="" className="u-tx-info">Test1</a></li>
                             <li><a href="" className="u-tx-info">Test1</a></li>
                             <li><a href="" className="u-tx-info">Test1</a></li>
                             <li><a href="" className="u-tx-info">Test1</a></li>
-                            <li><a href="" className="u-tx-info">Test1</a></li>
-                            <li><a href="" className="u-tx-info">Test1</a></li>
+                            <li><a href="" className="u-tx-info">Test1</a></li> */}
                           </ul>
                         </Accordion>
                       </li>
                       <li>
                         <Accordion label="Jeans">
                           <ul>
+                            {/* <li><a href="" className="u-tx-info">Test1</a></li>
                             <li><a href="" className="u-tx-info">Test1</a></li>
                             <li><a href="" className="u-tx-info">Test1</a></li>
                             <li><a href="" className="u-tx-info">Test1</a></li>
-                            <li><a href="" className="u-tx-info">Test1</a></li>
-                            <li><a href="" className="u-tx-info">Test1</a></li>
+                            <li><a href="" className="u-tx-info">Test1</a></li> */}
                           </ul>
                         </Accordion>
                       </li>
                       <li>
                         <Accordion label="Celana">
                           <ul>
+                            {/* <li><a href="" className="u-tx-info">Test1</a></li>
                             <li><a href="" className="u-tx-info">Test1</a></li>
                             <li><a href="" className="u-tx-info">Test1</a></li>
                             <li><a href="" className="u-tx-info">Test1</a></li>
-                            <li><a href="" className="u-tx-info">Test1</a></li>
-                            <li><a href="" className="u-tx-info">Test1</a></li>
+                            <li><a href="" className="u-tx-info">Test1</a></li> */}
                           </ul>
                         </Accordion>
                       </li>
                       <li>
                         <Accordion label="Sweater & cardigan">
                           <ul>
+                            {/* <li><a href="" className="u-tx-info">Test1</a></li>
                             <li><a href="" className="u-tx-info">Test1</a></li>
                             <li><a href="" className="u-tx-info">Test1</a></li>
                             <li><a href="" className="u-tx-info">Test1</a></li>
-                            <li><a href="" className="u-tx-info">Test1</a></li>
-                            <li><a href="" className="u-tx-info">Test1</a></li>
+                            <li><a href="" className="u-tx-info">Test1</a></li> */}
                           </ul>
                         </Accordion>
                       </li>

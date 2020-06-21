@@ -34,7 +34,7 @@ class Modal extends React.Component {
               {this.props.upload && (
                 <div>
                   <div className="u-tx-center upload">
-                    <img src={uploadImage}/>
+                    <img src={uploadImage} alt="upload"/>
                     <p className="desc">Drag & drop or <span>Browser</span></p>
                     <p className="subdesc">Lorem ipsum dolor sit amet JPG, PNG, PDF with maximum size 500 Kb</p>
                   </div>
@@ -79,7 +79,7 @@ class Modal extends React.Component {
               {this.props.upload && (
                 <div>
                   <div className="u-tx-center upload">
-                    <img src={uploadImage}/>
+                    <img src={uploadImage} alt="upload"/>
                     <p className="desc">Drag & drop or <span>Browser</span></p>
                     <p className="subdesc">Lorem ipsum dolor sit amet JPG, PNG, PDF with maximum size 500 Kb</p>
                   </div>

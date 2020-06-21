@@ -310,8 +310,8 @@ class Typography extends React.Component {
         <h1>Text Link</h1>
         <h1>Alert Text</h1>
         <h1>Button Label</h1>
-        <a href="">tag a</a>
-        <a href="" className="u-tx-secondary-green">tag b</a>
+        {/* <a href="">tag a</a>
+        <a href="" className="u-tx-secondary-green">tag b</a> */}
       </div>
     )
   }
