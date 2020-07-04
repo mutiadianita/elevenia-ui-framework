@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { ProgressTracker, Tracker } from '../Components/Atom';
+import { ProgressTracker, Tracker } from '../Components/Atoms';
 
 const steps = [
   {

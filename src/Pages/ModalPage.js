@@ -1,5 +1,5 @@
 import React from 'react'
-import { Modal, Button } from '../Components/Atom'
+import { Modal, Button } from '../Components/Atoms'
 
 class ModalPage extends React.Component {
 

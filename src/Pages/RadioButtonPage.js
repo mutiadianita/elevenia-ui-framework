@@ -1,5 +1,5 @@
 import React from 'react'
-import { RadioButton } from '../Components/Atom'
+import { RadioButton } from '../Components/Atoms'
 
 class RadioButtonPage extends React.Component {
   render () {

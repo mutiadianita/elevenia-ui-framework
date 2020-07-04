@@ -1,6 +1,6 @@
 import React from 'react'
 
-class Margin extends React.Component {
+class SpacingPage extends React.Component {
   render () {
     return (
       <div>
@@ -57,4 +57,4 @@ class Margin extends React.Component {
   }
 }
 
-export default Margin;
+export default SpacingPage;

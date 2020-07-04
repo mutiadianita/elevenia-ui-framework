@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { FormGroup, InputGroup, Textfield, Icon } from '../Components/Atom';
+import { FormGroup, InputGroup, Textfield, Icon } from '../Components/Atoms';
 
 class TextfieldPage extends Component {
 

@@ -1,10 +1,11 @@
 import React from 'react'
 
-class Color extends React.Component {
+class ColorPage extends React.Component {
   render () {
     return (
       <div>
         <h1 className="title">Color</h1>
+        <p>Color is additionan class for text and background color</p>
         <h1>Text Color</h1>
         <ul className="u-ds-flex u-fx-wrap">
           <li>
@@ -81,4 +82,4 @@ class Color extends React.Component {
   }
 }
 
-export default Color;
+export default ColorPage;

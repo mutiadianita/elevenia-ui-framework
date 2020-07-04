@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Box, Divider } from '../Components/Atom';
+import { Box, Divider } from '../Components/Atoms';
 
 class DividerPage extends Component {
     render() {

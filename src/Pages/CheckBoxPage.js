@@ -1,5 +1,5 @@
 import React from 'react'
-import { CheckBox } from '../Components/Atom'
+import { CheckBox } from '../Components/Atoms'
 
 class CheckBoxPage extends React.Component {
   render () {

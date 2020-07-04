@@ -1,11 +1,12 @@
 import React from 'react';
 
-const VerticalAlign = () => {
-  return (
-    <div>
-      <h1 className="title">Vertical Align</h1>
+class VerticalAlignPage extends React.Component {
+  render() {
+    return (
+      <div>
+        <h1 className="title">Vertical Align</h1>
         <p className="u-tx-info">Change the alignment of elements with
-         the vertical-alignment utilities. Please note that vertical-align
+        the vertical-alignment utilities. Please note that vertical-align
           only affects inline, inline-block, inline-table, and table cell elements.</p>
         <p className="u-my-24 u-tx-info">Here are all the support classes</p>
         <ul className="list-page">
@@ -16,8 +17,17 @@ const VerticalAlign = () => {
           <li><span className="u-tx-primary">.u-yal-text-top</span> </li>
           <li><span className="u-tx-primary">.u-yal-text-bottom</span> </li>
         </ul>
-    </div>
-  );
-};
+        <code>
+          &lt;div className="u-yal-baseline"&gt; &lt;/div&gt;  <br />
+            &lt;div className="u-yal-top"&gt; &lt;/div&gt; <br />
+            &lt;div className="u-yal-middle"&gt; &lt;/div&gt; <br />
+            &lt;div className="u-yal-bottom"&gt; &lt;/div&gt; <br />
+            &lt;div className="u-yal-text-top"&gt; &lt;/div&gt; <br />
+            &lt;div className="u-yal-text-bottom"&gt; &lt;/div&gt;
+        </code>
+      </div>
+    )
+  }
+}
 
-export default VerticalAlign;
+export default VerticalAlignPage;

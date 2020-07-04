@@ -1,5 +1,5 @@
 import React from 'react'
-import { Icon } from '../Components/Atom'
+import { Icon } from '../Components/Atoms'
 
 
 class IconPage extends React.Component {

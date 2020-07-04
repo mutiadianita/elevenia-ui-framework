@@ -112,9 +112,6 @@ code {
   color: #f8fbfc;
 }
 
-code br {
-  /* line-height: 2; */
-}
 .u-fx-row > div {
   flex-grow: 1;
 }

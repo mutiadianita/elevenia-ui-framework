@@ -1,5 +1,5 @@
 import React from 'react'
-import { IconSpecial } from '../Components/Atom'
+import { IconSpecial } from '../Components/Atoms'
 
 class IconSpecialPage extends React.Component {
   render() {

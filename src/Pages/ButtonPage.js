@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Icon } from '../Components/Atom'
+import { Button, Icon } from '../Components/Atoms'
 
 class ButtonPage extends React.Component {
   handleClick = () => {

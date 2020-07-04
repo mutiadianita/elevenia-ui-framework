@@ -1,5 +1,5 @@
 import React from 'react';
-import { Table } from '../Components/Atom';
+import { Table } from '../Components/Atoms';
 
 const TablePage = () => {
     return (

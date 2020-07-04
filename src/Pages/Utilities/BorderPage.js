@@ -1,10 +1,11 @@
 import React from 'react'
 
-class Border extends React.Component {
+class BorderPage extends React.Component {
   render () {
     return (
       <div>
-          <h1 className="title">Border</h1>
+        <h1 className="title">Border</h1>
+        <p>Use border utilities to add or remove an element’s borders. Choose from all borders or one at a time.</p>
         <h1>Border Color</h1>
           <ul className="u-ds-flex u-fx-wrap">
             <li className="u-bd u-bd-primary u-p-12 u-m-12">Border Color Primary</li>
@@ -88,4 +89,4 @@ class Border extends React.Component {
   }
 }
 
-export default Border;
+export default BorderPage;

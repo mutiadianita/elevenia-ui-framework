@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Stepper, FormGroup } from '../Components/Atom';
+import { FormGroup } from '../Components/Atoms';
+import { Stepper } from '../Components/Molecules';
 
 class StepperPage extends Component {
 

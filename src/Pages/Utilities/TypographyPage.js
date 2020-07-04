@@ -1,6 +1,6 @@
 import React from 'react'
 
-class Typography extends React.Component {
+class TypographyPage extends React.Component {
   render () {
     return (
       <div >
@@ -98,11 +98,17 @@ class Typography extends React.Component {
         </div>
         <p className="u-my-24 u-tx-info">Here are all the support classes</p>
         <ul className="list-page">
-        <li><span className="u-tx-primary">.u-tx-d1</span> </li>
-        <li><span className="u-tx-primary">.u-tx-d2</span> </li>
-        <li><span className="u-tx-primary">.u-tx-d3</span> </li>
-        <li><span className="u-tx-primary">.u-tx-d4</span> </li>
+            <li><span className="u-tx-primary">.u-tx-d1</span> </li>
+            <li><span className="u-tx-primary">.u-tx-d2</span> </li>
+            <li><span className="u-tx-primary">.u-tx-d3</span> </li>
+            <li><span className="u-tx-primary">.u-tx-d4</span> </li>
         </ul>
+        <code>
+            &lt;p className="u-tx-d1"&gt; &lt;/p&gt; <br/>
+            &lt;p className="u-tx-d2"&gt; &lt;/p&gt; <br/>
+            &lt;p className="u-tx-d3"&gt; &lt;/p&gt; <br/>
+            &lt;p className="u-tx-d4"&gt; &lt;/p&gt;
+        </code>
         <div className="th-bg-light u-p-24 u-mt-24">
         <div className="row">
             <div className="col-4 u-fx-column">
@@ -300,21 +306,65 @@ class Typography extends React.Component {
         </div>
         <p className="u-my-24 u-tx-info">Here are all the support classes</p>
         <ul className="list-page">
-        <li><span className="u-tx-primary">.u-tx-b1 (default)</span> </li>
-        <li><span className="u-tx-primary">.u-tx-b2</span> </li>
-        <li><span className="u-tx-primary">.u-tx-b3</span> </li>
-        <li><span className="u-tx-primary">.u-tx-b3</span> </li>
-        <li><span className="u-tx-primary">.u-tx-p1</span> </li>
-        <li><span className="u-tx-primary">.u-tx-p2</span> </li>
+            <li><span className="u-tx-primary">.u-tx-b1 (default)</span> </li>
+            <li><span className="u-tx-primary">.u-tx-b2</span> </li>
+            <li><span className="u-tx-primary">.u-tx-b3</span> </li>
+            <li><span className="u-tx-primary">.u-tx-b4</span> </li>
+            <li><span className="u-tx-primary">.u-tx-p1</span> </li>
+            <li><span className="u-tx-primary">.u-tx-p2</span> </li>
         </ul>
-        <h1>Text Link</h1>
-        <h1>Alert Text</h1>
-        <h1>Button Label</h1>
-        {/* <a href="">tag a</a>
-        <a href="" className="u-tx-secondary-green">tag b</a> */}
+        <code>
+            &lt;p className="u-tx-b1"&gt; &lt;/p&gt; <br/>
+            &lt;p className="u-tx-b2"&gt; &lt;/p&gt; <br/>
+            &lt;p className="u-tx-b3"&gt; &lt;/p&gt; <br/>
+            &lt;p className="u-tx-b4"&gt; &lt;/p&gt; <br/>
+            &lt;p className="u-tx-p1"&gt; &lt;/p&gt; <br/>
+            &lt;p className="u-tx-p2"&gt; &lt;/p&gt;
+        </code>
+        <h1>Text Align</h1>
+        <ul className="list-page">
+            <li><span className="u-tx-primary">.u-tx-center</span> </li>
+            <li><span className="u-tx-primary">.u-tx-right</span> </li>
+            <li><span className="u-tx-primary">.u-tx-left</span> </li>
+            <li><span className="u-tx-primary">.u-tx-wrap</span> </li>
+        </ul>
+        <code>
+            &lt;p className="u-tx-center"&gt; &lt;/p&gt;  <br/>
+            &lt;p className="u-tx-right"&gt; &lt;/p&gt; <br/>
+            &lt;p className="u-tx-left"&gt; &lt;/p&gt; <br/>
+            &lt;p className="u-tx-wrap"&gt; &lt;/p&gt;
+        </code>
+        <h1>Text Decoration</h1>
+        <ul className="list-page">
+            <li><span className="u-tx-primary">.u-tx-italic</span> </li>
+            <li><span className="u-tx-primary">.u-tx-upcase</span> </li>
+            <li><span className="u-tx-primary">.u-tx-lowcase</span> </li>
+            <li><span className="u-tx-primary">.u-tx-nodecor</span> </li>
+            <li><span className="u-tx-primary">.u-tx-capital</span> </li>
+        </ul>
+        <code>
+            &lt;p className="u-tx-italic"&gt; &lt;/p&gt; <br/>
+            &lt;p className="u-tx-upcase"&gt; &lt;/p&gt; <br/>
+            &lt;p className="u-tx-lowcase"&gt; &lt;/p&gt; <br/>
+            &lt;p className="u-tx-nodecor"&gt; &lt;/p&gt; <br/>
+            &lt;p className="u-tx-capital"&gt; &lt;/p&gt; <br/>
+        </code>
+        <h1>Font Weight</h1>
+        <ul className="list-page">
+            <li><span className="u-tx-primary">.u-fw-light</span> </li>
+            <li><span className="u-tx-primary">.u-fw-normal</span> </li>
+            <li><span className="u-tx-primary">.u-fw-regular</span> </li>
+            <li><span className="u-tx-primary">.u-fw-bold</span> </li>
+        </ul>
+        <code>
+            &lt;p className="u-fw-light"&gt; &lt;/p&gt; <br/>
+            &lt;p className="u-fw-normal"&gt; &lt;/p&gt; <br/>
+            &lt;p className="u-fw-regular"&gt; &lt;/p&gt; <br/>
+            &lt;p className="u-fw-bold"&gt; &lt;/p&gt; <br/>
+        </code>
       </div>
     )
   }
 }
 
-export default Typography;
+export default TypographyPage;

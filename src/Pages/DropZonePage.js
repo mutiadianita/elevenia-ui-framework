@@ -1,6 +1,6 @@
 import React from 'react'
 import Dropzone from 'react-dropzone'
-import { DropZone } from '../Components/Atom'
+import { DropZone } from '../Components/Atoms'
 
 class DropZonePage extends React.Component {
   onDrop = (acceptedFiles, rejectedFiles) => {

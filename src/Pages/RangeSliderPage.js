@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { RangeSlider } from '../Components/Atom'
+import { RangeSlider } from '../Components/Molecules'
 
 class RangeSliderPage extends Component {
     render() {

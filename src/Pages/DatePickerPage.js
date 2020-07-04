@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { FormGroup, InputGroup, DatePicker, Icon } from "../Components/Atom";
+import { FormGroup, InputGroup, DatePicker, Icon } from "../Components/Atoms";
 
 class DatePickerPage extends Component {
 

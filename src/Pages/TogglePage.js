@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Toggle } from '../Components/Atom';
+import { Toggle } from '../Components/Atoms';
 
 class TogglePage extends Component {
   render() {

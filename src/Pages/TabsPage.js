@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Tabs, TabsItem, Box,IconSpecial } from '../Components/Atom';
+import { Tabs, TabsItem, Box,IconSpecial } from '../Components/Atoms';
 
 class TabsPage extends Component {
     state = {

@@ -1,5 +1,5 @@
 import React from 'react'
-import { SelectButton } from '../Components/Atom'
+import { SelectButton } from '../Components/Atoms'
 
 class SelectButtonPages extends React.Component {
   render () {

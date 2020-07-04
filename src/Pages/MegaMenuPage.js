@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Tabs, TabsItem, Accordion,IconSpecial } from '../Components/Atom';
+import { Tabs, TabsItem, Accordion,IconSpecial } from '../Components/Atoms';
 
 class MegaMenuPage extends Component {
     state = {

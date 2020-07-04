@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Tooltip, Button } from '../Components/Atom';
+import { Tooltip, Button } from '../Components/Atoms';
 
 class TooltipPage extends Component {
     render() {

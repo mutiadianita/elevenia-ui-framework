@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Breadcrumbs } from '../Components/Atom'
+import { Breadcrumbs } from '../Components/Molecules'
 
 class BreadcrumbsPage extends Component {
     render() {
@@ -7,13 +7,9 @@ class BreadcrumbsPage extends Component {
             <div>
                 <h1 className="title">Breadcrumbs</h1>
                 <div className="row u-mb-24">
-                    <div className="col-6 u-tx-info">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Nunc condimentum orci sodales eros sodales egestas.
-                        Donec eu neque gravida.
-                    </div>
-                    <div className="col-6 u-tx-info">
+                    <div className="col u-tx-info">
                         Breadcrumbs are placed at the top left corner of the screen, above the page title.
+                        Breadcrumbs support up to 4 floor menus
                     </div>
                 </div>
                 <h1>Type</h1>
@@ -21,6 +17,14 @@ class BreadcrumbsPage extends Component {
                     pages={[
                         {
                             name: 'Keranjang Keranjang Keranjang Keranjang',
+                            link: '/'
+                        },
+                        {
+                            name: 'Pembayaran Keranjang Keranjang Keranjang',
+                            link: '/'
+                        },
+                        {
+                            name: 'Pembayaran Keranjang Keranjang Keranjang',
                             link: '/'
                         },
                         {

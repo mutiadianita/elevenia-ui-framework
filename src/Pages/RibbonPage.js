@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Icon } from '../Components/Atom';
+import { Icon } from '../Components/Atoms';
 import { Ribbon } from '../Components/Molecules';
 
 class RibbonPage extends Component {

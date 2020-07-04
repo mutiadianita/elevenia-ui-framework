@@ -1,5 +1,5 @@
 import React from 'react';
-import { Pagination } from '../Components/Atom';
+import { Pagination } from '../Components/Molecules';
 
 class PaginationPage extends React.Component {
   render(){

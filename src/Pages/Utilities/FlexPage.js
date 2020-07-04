@@ -1,7 +1,8 @@
 import React from 'react';
 
-const Flex = () => {
-    return (
+class FlexPage extends React.Component {
+    render () {
+      return (
         <div>
             <h1 className="title">Flex</h1>
             <h2>Enable flex behaviors</h2>
@@ -108,7 +109,8 @@ const Flex = () => {
                 <li><span className="u-tx-primary">.u-fx-shrink-1</span> </li>
             </ul>
         </div>
-    );
-};
+    )
+  }
+}
 
-export default Flex;
+export default FlexPage;

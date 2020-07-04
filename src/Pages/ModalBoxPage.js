@@ -1,5 +1,5 @@
 import React from 'react'
-import { ModalBox, Button } from '../Components/Atom'
+import { ModalBox, Button } from '../Components/Atoms'
 import bannerImage from '../assets/images/banner.png'
 import illustrationImage from '../assets/images/Illustration.svg'
 import ovalImage from '../assets/images/Oval.svg'

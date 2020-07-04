@@ -1,5 +1,5 @@
 import React from 'react'
-import { ButtonPopover } from '../Components/Atom'
+import { ButtonPopover } from '../Components/Molecules'
 
 class ButtonPopoverPage extends React.Component {
   render () {
