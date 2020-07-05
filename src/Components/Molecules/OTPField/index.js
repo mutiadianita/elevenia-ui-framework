@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Textfield } from '../../Atom';
+import { Textfield } from '../../Atoms';
 
 class index extends Component {
     render() {

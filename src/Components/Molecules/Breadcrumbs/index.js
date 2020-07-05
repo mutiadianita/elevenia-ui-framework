@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import {Icon} from '../../Atom'
+import {Icon} from '../../Atoms'
 
 const Breadcrumbs = (props) => {
     return (

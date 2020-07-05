@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react';
-import { Icon } from '../../Atom';
+import { Icon } from '../../Atoms';
 
 const Accordion = ({children, label}) => {
   const [show, setShow] = useState(false);

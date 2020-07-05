@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import OutsideClickHandler from 'react-outside-click-handler';
-import { Icon } from '../../Atom';
+import { Icon } from '../../Atoms';
 
 class OptionBox extends Component {
 

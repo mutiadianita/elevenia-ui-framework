@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react';
 import _ from 'lodash'
 import PropTypes from 'prop-types';
-import { Icon } from '../../Atom';
+import { Icon } from '../../Atoms';
 
 const pageFactory = (value, dotted=false) => ({ value, dotted })
 const createRange = (start, end, factory) =>

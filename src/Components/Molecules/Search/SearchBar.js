@@ -1,5 +1,5 @@
 import React from 'react';
-import { InputGroup, Button, Textfield, Icon } from '../../Atom';
+import { InputGroup, Button, Textfield, Icon } from '../../Atoms';
 
 const RegularSearch = (props) => {
   return (
