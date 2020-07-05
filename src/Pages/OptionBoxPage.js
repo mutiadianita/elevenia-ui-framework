@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { FormGroup } from '../Components/Atom';
+import { FormGroup } from '../Components/Atoms';
 import { OptionBox } from '../Components/Molecules';
 
 class OptionBoxPage extends Component {
