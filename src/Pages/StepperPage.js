@@ -20,6 +20,7 @@ class StepperPage extends Component {
         return (
             <div>
                 <h1 className="title">Stepper</h1>
+                <p>Steppers may display a transient feedback message after a step is saved.</p>
                 <h2 className="u-mb-8">Enable</h2>
                 <FormGroup
                     label="With Label"

@@ -6,6 +6,10 @@ class IconSpecialPage extends React.Component {
     return (
       <div>
         <h1 className="title">Icons Special</h1>
+        <p>Add icon name to className of IconSpecial, add className size: i--medium for medium icon 36px and i--large for large icon 40px. IconSpecial usage example:</p>
+        <code>
+          &lt;IconSpecial styles="i i--medium i__tiket" &gt;
+        </code>
         <h1 className="u-my-24">36px</h1>
         <ul className="u-ds-flex u-fx-wrap icon-special-wrap">
           <li>
@@ -74,7 +78,6 @@ class IconSpecialPage extends React.Component {
           </li>
         </ul>
 
-        <h1 className="title">Icons Special</h1>
         <h1 className="u-my-24">40px</h1>
         <ul className="u-ds-flex u-fx-wrap icon-special-wrap">
           <li>

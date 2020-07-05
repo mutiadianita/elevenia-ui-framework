@@ -51,7 +51,6 @@ class DatePickerPage extends Component {
                                     onChangeRaw={event => console.log(event)}
                                 />
                             </InputGroup>
-
                         </FormGroup>
                     </div>
                 </div>

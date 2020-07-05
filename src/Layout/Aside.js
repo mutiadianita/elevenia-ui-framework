@@ -48,8 +48,6 @@ class Aside extends React.Component {
             <li><NavLink to="/textfield" activeClassName="active">Textfield</NavLink></li>
             <li><NavLink to="/toggle" activeClassName="active">Toggle</NavLink></li>
             <li><NavLink to="/tooltip" activeClassName="active">Tooltip</NavLink></li>
-            <li><NavLink to="/tray" activeClassName="active">Tray</NavLink></li>
-            <li><NavLink to="/progressbar" activeClassName="active">Progress Bar</NavLink></li>
           </ul>
         </Accordion>
         <Accordion label="MOLECULES" className="u-pl-32">

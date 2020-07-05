@@ -7,6 +7,10 @@ class IconPage extends React.Component {
     return (
       <div>
         <h1 className="title">Icons Glyph</h1>
+        <p>Replace name value attribute of icon to use icon, width and height with icon dimension, and fill for icon color Icon usage example:</p>
+        <code>
+          &lt;Icon iwidth="i" name="add-document" width="16" height="16" fill="#70727D" class="add-document" /&gt;
+        </code>
         <h1 className="u-my-24">16px</h1>
         <ul className="u-ds-flex u-fx-wrap icon-wrap">
           <li>
@@ -370,8 +374,6 @@ class IconPage extends React.Component {
             <p>zoom-out</p>
           </li>
         </ul>
-
-        <h1 className="title">Icons Glyph</h1>
         <h1 className="u-my-24">24px</h1>
         <ul className="u-ds-flex u-fx-wrap icon-wrap">
           <li>

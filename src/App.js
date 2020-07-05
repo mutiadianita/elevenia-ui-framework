@@ -29,6 +29,7 @@ import ButtonPopoverPage from './Pages/ButtonPopoverPage';
 import BoxPage from './Pages/BoxPage';
 import CheckBoxPage from './Pages/CheckBoxPage';
 import DatePickerPage from './Pages/DatePickerPage';
+import DividerPage from './Pages/DividerPage';
 import DropZonePage from './Pages/DropZonePage';
 import IconPage from './Pages/IconPage';
 import IconSpecialPage from './Pages/IconSpecialPage';
@@ -53,7 +54,6 @@ import TablePage from './Pages/TablePage';
 import Container from './Pages/ContainerPage';
 
 import RibbonPage from './Pages/RibbonPage';
-import TrayPage from './Pages/TrayPage';
 
 class App extends Component {
   render() {
@@ -78,6 +78,7 @@ class App extends Component {
                   <Route path="/box" component={BoxPage} />
                   <Route path="/checkbox" component={CheckBoxPage} />
                   <Route path="/date-picker" component={DatePickerPage} />
+                  <Route path="/divider" component={DividerPage} />
                   <Route path="/drop-zone" component={DropZonePage} />
                   <Route path="/icon-glyph" component={IconPage} />
                   <Route path="/icon-special" component={IconSpecialPage} />
@@ -102,7 +103,6 @@ class App extends Component {
 
 
                   <Route path="/ribbon" component={RibbonPage} />
-                  <Route path="/tray" component={TrayPage} />
 
                   <Route path="/border" component={Border} />
                   <Route path="/color" component={Color} />

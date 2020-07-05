@@ -6,6 +6,7 @@ class CheckBoxPage extends React.Component {
     return (
         <div>
             <h1 className="title">Checkbox</h1>
+            <p>Checkboxes are for selecting one or several options in a list, while radios are for selecting one option from many.</p>
             <div className="u-fx-column u-js-around">
                 <div>
                     <h2 className="subtitle u-my-24">Vertical Align</h2>
