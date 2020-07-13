@@ -1,7 +1,7 @@
 {
   "name": "elevenia-ui-framework",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -16,36 +16,6 @@
     "react-dropzone": "^11.0.1",
     "react-outside-click-handler": "^1.3.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.1",
-    "websocket-extensions": "^0.1.4"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build:scss": "./node_modules/.bin/sass ./src/assets/scss/index.scss:./build/assets/index.css",
-    "build:atoms": "babel ./src/Components/Atoms --out-dir ./build/components/Atoms --ignore __tests__,spec.js,test.js,__snapshots__",
-    "build:molecules": "babel ./src/Components/Molecules --out-dir ./build/components/Molecules --ignore __tests__,spec.js,test.js,__snapshots__",
-    "build:copy-files": "node ./scripts/copy-files.js",
-    "build": "npm run build:atoms && npm run build:molecules && npm run build:scss && npm run build:copy-files",
-    "test": "node scripts/test.js",
-    "release": "npm run build && npm publish build --tag latest"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "devDependencies": {
-    "@babel/cli": "^7.10.4",
-    "@babel/core": "^7.10.4"
+    "react-scripts": "3.4.1"
   }
 }
