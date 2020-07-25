@@ -7,7 +7,6 @@ export { default as CheckBox } from './CheckBox';
 export { default as DatePicker } from './DatePicker';
 export { default as DateOptionBox } from './DateOptionBox';
 export { default as Divider } from './Divider';
-export { default as DropZone } from './DropZone';
 export { default as FormGroup } from './FormGroup';
 export { default as Icon } from './Icon';
 export { default as IconSpecial } from './IconSpecial';

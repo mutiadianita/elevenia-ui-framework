@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { Accordion } from '../Components/Atoms';
 
 
@@ -18,7 +18,7 @@ class Aside extends React.Component {
             <li><NavLink to="/sizing" activeClassName="active">Sizing</NavLink></li>
             <li><NavLink to="/spacing" activeClassName="active">Spacing</NavLink></li>
             <li><NavLink to="/position" activeClassName="active">Position</NavLink></li>
-            <li><NavLink to="/typography" activeClassName="active">Typography - Desktop</NavLink></li>
+            <li><NavLink to="/typography" activeClassName="active">Typography</NavLink></li>
             <li><NavLink to="/vertical-align" activeClassName="active">Vertical Align</NavLink></li>
             <li><NavLink to="/zindex" activeClassName="active">Z-Index</NavLink></li>
           </ul>
@@ -31,12 +31,11 @@ class Aside extends React.Component {
         <Accordion label="ATOM" className="u-pl-32">
           <ul>
             <li><NavLink to="/alert-box" activeClassName="active">Alert Box</NavLink></li>
-            <li><NavLink to="/button" activeClassName="active">Button</NavLink></li>
             <li><NavLink to="/box" activeClassName="active">Box</NavLink></li>
+            <li><NavLink to="/button" activeClassName="active">Button</NavLink></li>
             <li><NavLink to="/checkbox" activeClassName="active">Checkbox</NavLink></li>
             <li><NavLink to="/date-picker" activeClassName="active">Date Picker</NavLink></li>
             <li><NavLink to="/divider" activeClassName="active">Divider</NavLink></li>
-            <li><NavLink to="/drop-zone" activeClassName="active">Drop Zone</NavLink></li>
             <li><NavLink to="/icon-glyph" activeClassName="active">Icon Glyph</NavLink></li>
             <li><NavLink to="/icon-special" activeClassName="active">Icon Special</NavLink></li>
             <li><NavLink to="/modal-box" activeClassName="active">Modal Box</NavLink></li>
@@ -47,7 +46,7 @@ class Aside extends React.Component {
             <li><NavLink to="/table" activeClassName="active">Table</NavLink></li>
             <li><NavLink to="/textfield" activeClassName="active">Textfield</NavLink></li>
             <li><NavLink to="/toggle" activeClassName="active">Toggle</NavLink></li>
-            <li><NavLink to="/tooltip" activeClassName="active">Tooltip</NavLink></li>
+            {/* <li><NavLink to="/tooltip" activeClassName="active">Tooltip</NavLink></li> */}
           </ul>
         </Accordion>
         <Accordion label="MOLECULES" className="u-pl-32">
@@ -60,10 +59,13 @@ class Aside extends React.Component {
             <li><NavLink to="/range-slider" activeClassName="active">Range Slider</NavLink></li>
             <li><NavLink to="/search-bar" activeClassName="active">Search Bar</NavLink></li>
             <li><NavLink to="/stepper" activeClassName="active">Stepper</NavLink></li>
+            <li><NavLink to="/uploader" activeClassName="active">Uploader</NavLink></li>
           </ul>
         </Accordion>
         <Accordion label="ORGANISMS" className="u-pl-32">
           <ul>
+            <li><NavLink to="/header" activeClassName="active">Header</NavLink></li>
+            <li><NavLink to="/footer" activeClassName="active">Footer</NavLink></li>
             <li><NavLink to="/mega-menu" activeClassName="active">Mega Menu</NavLink></li>
             <li><NavLink to="/progress-tracker" activeClassName="active">Progress Tracker</NavLink></li>
             <li><NavLink to="/tabs" activeClassName="active">Tabs</NavLink></li>

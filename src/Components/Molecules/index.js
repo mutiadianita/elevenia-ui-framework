@@ -1,5 +1,6 @@
 export { default as Accordion } from './Accordion';
 export { default as Breadcrumbs } from './Breadcrumbs';
+export { default as DropZone } from './DropZone';
 export { default as OptionBox } from './OptionBox';
 export { default as ButtonPopover } from './ButtonPopover';
 export { default as Pagination } from './Pagination';

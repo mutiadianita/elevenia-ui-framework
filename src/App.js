@@ -8,6 +8,11 @@ import Footer from './Layout/Footer';
 
 import ScrollToTop from './ScrollToTop';
 
+import Documentation from './Pages/DocumentationPage';
+import Installation from './Pages/InstallationPage'
+
+import Container from './Pages/ContainerPage';
+
 import Border from './Pages/Utilities/BorderPage';
 import Color from './Pages/Utilities/ColorPage';
 import Clearfix from './Pages/Utilities/ClearfixPage';
@@ -21,39 +26,39 @@ import Typography from './Pages/Utilities/TypographyPage';
 import VerticalAlign from './Pages/Utilities/VerticalAlignPage';
 import Zindex from './Pages/Utilities/ZIndexPage';
 
-import AccordionPage from './Pages/AccordionPage';
-import AlertBox from './Pages/AlertBoxPage';
-import BreadcrumbsPage from './Pages/BreadcrumbsPage';
-import ButtonPage from './Pages/ButtonPage';
-import ButtonPopoverPage from './Pages/ButtonPopoverPage';
-import BoxPage from './Pages/BoxPage';
-import CheckBoxPage from './Pages/CheckBoxPage';
-import DatePickerPage from './Pages/DatePickerPage';
-import DividerPage from './Pages/DividerPage';
-import DropZonePage from './Pages/DropZonePage';
-import IconPage from './Pages/IconPage';
-import IconSpecialPage from './Pages/IconSpecialPage';
-import MegaMenuPage from './Pages/MegaMenuPage';
-import ModalBoxPage from './Pages/ModalBoxPage';
-import ModalPage from './Pages/ModalPage';
-import NextNavButton from './Pages/NextNavButtonPage';
-import OptionBox from './Pages/OptionBoxPage';
-import ProgressTracker from './Pages/TrackerPage';
-import RadioButtonPage from './Pages/RadioButtonPage';
-import RangeSliderPage from './Pages/RangeSliderPage';
-import SearchBar from './Pages/SearchBarPage';
-import SelectButtonPage from './Pages/SelectButtonPage';
-import Stepper from './Pages/StepperPage';
-import TabsPage from './Pages/TabsPage';
-import Textfield from './Pages/TextfieldPage';
-import TogglePage from './Pages/TogglePage';
-import TooltipPage from './Pages/TooltipPage';
-import Pagination from './Pages/PaginationPage';
-import TablePage from './Pages/TablePage';
+import AlertBox from './Pages/Atoms/AlertBoxPage';
+import ButtonPage from './Pages/Atoms/ButtonPage';
+import BoxPage from './Pages/Atoms/BoxPage';
+import CheckBoxPage from './Pages/Atoms/CheckBoxPage';
+import DatePickerPage from './Pages/Atoms/DatePickerPage';
+import DividerPage from './Pages/Atoms/DividerPage';
+import IconPage from './Pages/Atoms/IconPage';
+import IconSpecialPage from './Pages/Atoms/IconSpecialPage';
+import ModalBoxPage from './Pages/Atoms/ModalBoxPage';
+import ModalPage from './Pages/Atoms/ModalPage';
+import NextNavButton from './Pages/Atoms/NextNavButtonPage';
+import RadioButtonPage from './Pages/Atoms/RadioButtonPage';
+import SelectButtonPage from './Pages/Atoms/SelectButtonPage';
+import TablePage from './Pages/Atoms/TablePage';
+import Textfield from './Pages/Atoms/TextfieldPage';
+import TogglePage from './Pages/Atoms/TogglePage';
 
-import Container from './Pages/ContainerPage';
+// import RibbonPage from './Pages/Atoms/RibbonPage';
+// import TooltipPage from './Pages/TooltipPage';
 
-import RibbonPage from './Pages/RibbonPage';
+import AccordionPage from './Pages/Molecules/AccordionPage';
+import BreadcrumbsPage from './Pages/Molecules/BreadcrumbsPage';
+import ButtonPopoverPage from './Pages/Molecules/ButtonPopoverPage';
+import DropZonePage from './Pages/Molecules/DropZonePage';
+import OptionBox from './Pages/Molecules/OptionBoxPage';
+import Pagination from './Pages/Molecules/PaginationPage';
+import RangeSliderPage from './Pages/Molecules/RangeSliderPage';
+import SearchBar from './Pages/Molecules/SearchBarPage';
+import Stepper from './Pages/Molecules/StepperPage';
+
+import MegaMenuPage from './Pages/Organisms/MegaMenuPage';
+import ProgressTracker from './Pages/Organisms/TrackerPage';
+import TabsPage from './Pages/Organisms/TabsPage';
 
 class App extends Component {
   render() {
@@ -67,54 +72,55 @@ class App extends Component {
               <Aside />
               <section>
                 <Switch>
-                  <Route path="/installation" component={Container} />
+                  <Route path="/documentation" component={Documentation} />
+                  <Route path="/installation" component={Installation} />
                   <Route path="/container" component={Container} />
 
-                  <Route path="/alert-box" component={AlertBox} />
-                  <Route path="/accordion" component={AccordionPage} />
-                  <Route path="/breadcrumbs" component={BreadcrumbsPage} />
-                  <Route path="/button" component={ButtonPage} />
-                  <Route path="/button-popover" component={ButtonPopoverPage} />
-                  <Route path="/box" component={BoxPage} />
-                  <Route path="/checkbox" component={CheckBoxPage} />
-                  <Route path="/date-picker" component={DatePickerPage} />
-                  <Route path="/divider" component={DividerPage} />
-                  <Route path="/drop-zone" component={DropZonePage} />
-                  <Route path="/icon-glyph" component={IconPage} />
-                  <Route path="/icon-special" component={IconSpecialPage} />
-                  <Route path="/mega-menu" component={MegaMenuPage} />
-                  <Route path="/modal-box" component={ModalBoxPage} />
-                  <Route path="/modal" component={ModalPage} />
-                  <Route path="/next-nav-button" component={NextNavButton} />
-                  <Route path="/progress-tracker" component={ProgressTracker} />
-                  <Route path="/option-box" component={OptionBox} />
-                  <Route path="/radio-button" component={RadioButtonPage} />
-                  <Route path="/range-slider" component={RangeSliderPage} />
-                  <Route path="/search-bar" component={SearchBar} />
-                  <Route path="/select-button" component={SelectButtonPage} />
-                  <Route path="/stepper" component={Stepper} />
-                  <Route path="/tabs" component={TabsPage} />
-                  <Route path="/textfield" component={Textfield} />
-                  <Route path="/tooltip" component={TooltipPage} />
-                  <Route path="/toggle" component={TogglePage} />
-                  <Route path="/typography" component={Typography} />
-                  <Route path="/pagination" component={Pagination} />
-                  <Route path="/table" component={TablePage} />
-
-
-                  <Route path="/ribbon" component={RibbonPage} />
-
                   <Route path="/border" component={Border} />
-                  <Route path="/color" component={Color} />
                   <Route path="/clearfix" component={Clearfix} />
+                  <Route path="/color" component={Color} />
                   <Route path="/display" component={Display} />
                   <Route path="/flex" exact component={Flex} />
                   <Route path="/float" exact component={Float} />
                   <Route path="/sizing" component={Sizing} />
                   <Route path="/spacing" component={Spacing} />
                   <Route path="/position" component={Position} />
+                  <Route path="/typography" component={Typography} />
                   <Route path="/vertical-align" component={VerticalAlign} />
                   <Route path="/zindex" component={Zindex} />
+
+                  <Route path="/alert-box" component={AlertBox} />
+                  <Route path="/box" component={BoxPage} />
+                  <Route path="/button" component={ButtonPage} />
+                  <Route path="/checkbox" component={CheckBoxPage} />
+                  <Route path="/date-picker" component={DatePickerPage} />
+                  <Route path="/divider" component={DividerPage} />
+                  <Route path="/icon-glyph" component={IconPage} />
+                  <Route path="/icon-special" component={IconSpecialPage} />
+                  <Route path="/modal-box" component={ModalBoxPage} />
+                  <Route path="/modal" component={ModalPage} />
+                  <Route path="/next-nav-button" component={NextNavButton} />
+                  <Route path="/radio-button" component={RadioButtonPage} />
+                  <Route path="/select-button" component={SelectButtonPage} />
+                  <Route path="/table" component={TablePage} />
+                  <Route path="/textfield" component={Textfield} />
+                  <Route path="/toggle" component={TogglePage} />
+                  {/* <Route path="/ribbon" component={RibbonPage} /> */}
+                  {/* <Route path="/tooltip" component={TooltipPage} /> */}
+                  
+                  <Route path="/accordion" component={AccordionPage} />
+                  <Route path="/breadcrumbs" component={BreadcrumbsPage} />
+                  <Route path="/button-popover" component={ButtonPopoverPage} />
+                  <Route path="/option-box" component={OptionBox} />
+                  <Route path="/range-slider" component={RangeSliderPage} />
+                  <Route path="/search-bar" component={SearchBar} />
+                  <Route path="/stepper" component={Stepper} />
+                  <Route path="/pagination" component={Pagination} />
+                  <Route path="/uploader" component={DropZonePage} />
+
+                  <Route path="/mega-menu" component={MegaMenuPage} />
+                  <Route path="/progress-tracker" component={ProgressTracker} />
+                  <Route path="/tabs" component={TabsPage} />
                 </Switch>
               </section>
             </div>
