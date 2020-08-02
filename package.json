@@ -1,14 +1,12 @@
 {
   "name": "elevenia-ui-framework",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.3.0",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "axios": "^0.19.2",
     "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.3",
     "rc-slider": "^9.3.0",
     "react": "^16.13.1",
     "react-datepicker": "^2.16.0",
@@ -21,11 +19,14 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "sass" : "sass --watch src/assets/scss/index.scss:src/assets/index.css",
     "build:scss": "./node_modules/.bin/sass ./src/assets/scss/index.scss:./build/assets/index.css",
     "build:atoms": "babel ./src/Components/Atoms --out-dir ./build/components/Atoms --ignore __tests__,spec.js,test.js,__snapshots__",
     "build:molecules": "babel ./src/Components/Molecules --out-dir ./build/components/Molecules --ignore __tests__,spec.js,test.js,__snapshots__",
+    "build:organisms": "babel ./src/Components/Organisms --out-dir ./build/components/Organisms --ignore __tests__,spec.js,test.js,__snapshots__",
+    "build:utilities": "babel ./src/Components/Utilities --out-dir ./build/components/Utilities --ignore __tests__,spec.js,test.js,__snapshots__",
     "build:copy-files": "node ./scripts/copy-files.js",
-    "build": "npm run build:atoms && npm run build:molecules && npm run build:scss && npm run build:copy-files",
+    "build": "npm run build:atoms && npm run build:molecules && npm run build:organisms && npm run build:utilities && npm run build:scss && npm run build:copy-files",
     "test": "node scripts/test.js",
     "release": "npm run build && npm publish build --tag latest"
   },
@@ -45,7 +46,9 @@
     ]
   },
   "devDependencies": {
-    "@babel/cli": "^7.10.4",
-    "@babel/core": "^7.10.4"
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.0",
+    "@babel/preset-env": "^7.11.0",
+    "babel-core": "^7.0.0-bridge.0"
   }
 }
