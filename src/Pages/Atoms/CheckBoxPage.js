@@ -19,11 +19,11 @@ class CheckBoxPage extends React.Component {
                     </div>
                     <code>
                     &lt;div&gt;<br/>
-                        &lt;CheckBox styles="checkbox checkbox__group interdeterminate" id="checkboxGroup"&gt;Indeterminate&lt;/CheckBox&gt;<br/>
-                        &lt;CheckBox styles="checkbox" id="checkbox1" value=""&gt; Default&lt;/CheckBox&gt;<br/>
-                        &lt;CheckBox styles="checkbox" id="checkbox2" value="" checked&gt;Checked&lt;/CheckBox&gt;<br/>
-                        &lt;CheckBox styles="checkbox" id="checkbox3" value="" disabled&gt;Disabled&lt;/CheckBox&gt;<br/>
-                        &lt;CheckBox styles="checkbox" id="checkbox4" value="" checked disabled&gt;Checked Disabled&lt;/CheckBox&gt;<br/>
+                    &nbsp;&lt;CheckBox styles="checkbox checkbox__group interdeterminate" id="checkboxGroup"&gt;Indeterminate&lt;/CheckBox&gt;<br/>
+                    &nbsp;&lt;CheckBox styles="checkbox" id="checkbox1" value=""&gt; Default&lt;/CheckBox&gt;<br/>
+                    &nbsp;&lt;CheckBox styles="checkbox" id="checkbox2" value="" checked&gt;Checked&lt;/CheckBox&gt;<br/>
+                    &nbsp;&lt;CheckBox styles="checkbox" id="checkbox3" value="" disabled&gt;Disabled&lt;/CheckBox&gt;<br/>
+                    &nbsp;&lt;CheckBox styles="checkbox" id="checkbox4" value="" checked disabled&gt;Checked Disabled&lt;/CheckBox&gt;<br/>
                     &lt;/div&gt;
                     </code>
                 </div>
@@ -37,10 +37,10 @@ class CheckBoxPage extends React.Component {
                     </div>
                     <code>
                     &lt;div className="u-fx-row"&gt;<br/>
-                        &lt;CheckBox styles="checkbox" id="checkboxH1" value=""> Default&lt;/CheckBox&gt;<br/>
-                        &lt;CheckBox styles="checkbox" id="checkboxH2" value="" checked>Checked&lt;/CheckBox&gt;<br/>
-                        &lt;CheckBox styles="checkbox" id="checkboxH3" value="" disabled>Disabled&lt;/CheckBox&gt;<br/>
-                        &lt;CheckBox styles="checkbox" id="checkboxH4" value="" checked disabled>Checked Disabled&lt;/CheckBox&gt;<br/>
+                    &nbsp;&lt;CheckBox styles="checkbox" id="checkboxH1" value=""&gt; Default&lt;/CheckBox&gt;<br/>
+                    &nbsp;&lt;CheckBox styles="checkbox" id="checkboxH2" value="" checked&gt;Checked&lt;/CheckBox&gt;<br/>
+                    &nbsp;&lt;CheckBox styles="checkbox" id="checkboxH3" value="" disabled&gt;Disabled&lt;/CheckBox&gt;<br/>
+                    &nbsp;&lt;CheckBox styles="checkbox" id="checkboxH4" value="" checked disabled&gt;Checked Disabled&lt;/CheckBox&gt;<br/>
                     &lt;/div&gt;
                     </code>
                 </div>

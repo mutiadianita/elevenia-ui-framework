@@ -3716,7 +3716,7 @@ select:-webkit-autofill:focus {
 }
 
 .footer {
-  display: flex;
+  display: inline-flex;
   flex: 1;
   z-index: 1020;
   bottom: 0;
@@ -3742,14 +3742,21 @@ select:-webkit-autofill:focus {
   flex-grow: 3;
   margin-right: 8px;
 }
+.footer-left .btn {
+  height: auto;
+}
 
 .footer-right {
   justify-content: flex-end;
   flex-grow: 4;
+  text-align: right;
+}
+.footer-right .btn {
+  height: auto;
 }
 
 .header {
-  display: flex;
+  display: inline-flex;
   position: fixed;
   z-index: 1020;
   top: 0;

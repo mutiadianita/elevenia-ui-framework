@@ -54,6 +54,29 @@ class DatePickerPage extends Component {
                         </FormGroup>
                     </div>
                 </div>
+                <code>
+                    &lt;FormGroup helptext="" styles=""&gt; <br />
+                    &nbsp;&lt;FormGroup.Label&gt; <br />
+                    &nbsp;&nbsp;With Label and Helptext <br />
+                    &nbsp;&nbsp;&lt;/FormGroup.Label&gt; <br />
+                    &nbsp;&lt;InputGroup IconLeft&gt; <br />
+                    &nbsp;&nbsp;&lt;InputGroup.Prepend&gt; <br />
+                    &nbsp;&nbsp;&nbsp;&lt;div className='u-fx-column u-js-center u-al-items-center'&gt; <br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;Icon iwidth="i--large" name="date" width="24" height="24" fill="#70727D" class="date" /&gt; <br />
+                    &nbsp;&nbsp;&nbsp;&lt;/div&gt; <br />
+                    &nbsp;&nbsp;&lt;/InputGroup.Prepend&gt; <br />
+                    &nbsp;&nbsp;&lt;DatePicker <br />
+                    &nbsp;&nbsp;&nbsp;dateFormat="iii, dd MMM yyyy" <br />
+                    &nbsp;&nbsp;&nbsp;className=&#123;'input-control'&#125; <br />
+                    &nbsp;&nbsp;&nbsp;placeholderText="Masukkan tanggal" <br />
+                    &nbsp;&nbsp;&nbsp;selected=&#123;data.singleDate&#125; <br />
+                    &nbsp;&nbsp;&nbsp;shouldCloseOnSelect=&#123;false&#125; <br />
+                    &nbsp;&nbsp;&nbsp;onChange=&#123;data =&gt; this.onChange('singleDate', data)&#125; <br />
+                    &nbsp;&nbsp;&nbsp;onChangeRaw=&#123;event =&gt; console.log(event)&#125; <br />
+                    &nbsp;&nbsp;/&gt; <br />
+                    &nbsp;&lt;/InputGroup&gt; <br />
+                    &lt;/FormGroup&gt; <br />
+                </code>
                 <h2 className="u-mb-4 u-mt-12">Date Picker Range</h2>
                 <div className="row form-row">
                     <div className="col">
@@ -103,6 +126,56 @@ class DatePickerPage extends Component {
                         </FormGroup>
                     </div>
                 </div>
+                <code>
+                    &lt;div className="row form-row"&gt; <br/>
+                    &nbsp;&lt;div className="col"&gt; <br/>
+                    &nbsp;&nbsp;&lt;FormGroup helptext="" styles=""&gt; <br/>
+                    &nbsp;&nbsp;&nbsp;&lt;FormGroup.Label&gt; <br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;Tanggal <br/>
+                    &nbsp;&nbsp;&lt;/FormGroup.Label&gt; <br/>
+                    &nbsp;&nbsp;&nbsp;&lt;InputGroup IconLeft&gt; <br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;InputGroup.Prepend&gt; <br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div className='u-fx-column u-js-center u-al-items-center'&gt; <br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;Icon iwidth="i--large" name="date" width="24" height="24" fill="#70727D" class="date" /&gt; <br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt; <br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;/InputGroup.Prepend&gt; <br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;DatePicker <br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dateFormat="iii, dd MMM yyyy" <br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;className=&#123;'input-control'&#125; <br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;placeholderText="Masukkan tanggal" <br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;selected=&#123;data.startDate&#125; <br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;startDate=&#123;data.startDate&#125; <br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;endDate=&#123;data.endDate&#125; <br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;shouldCloseOnSelect=&#123;false&#125; <br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;onChange=&#123;data =&gt; this.onChange("startDate", data)&#125; <br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;/&gt; <br/>
+                    &nbsp;&nbsp;&nbsp;&lt;/InputGroup&gt; <br/>
+                    &nbsp;&nbsp;&lt;/FormGroup&gt; <br/>
+                    &nbsp;&lt;/div&gt; <br/>
+                    &nbsp;&lt;div className="col"&gt; <br/>
+                    &nbsp;&nbsp;&lt;FormGroup helptext="" styles=""&gt; <br/>
+                    &nbsp;&nbsp;&nbsp;&lt;FormGroup.Label&gt;&lt;/FormGroup.Label&gt; <br/>
+                    &nbsp;&nbsp;&nbsp;&lt;InputGroup IconLeft&gt; <br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;InputGroup.Prepend&gt; <br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div className='u-fx-column u-js-center u-al-items-center'&gt; <br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;Icon iwidth="i--large" name="date" width="24" height="24" fill="#70727D" class="date" /&gt; <br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt; <br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;/InputGroup.Prepend&gt; <br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;DatePicker <br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dateFormat="iii, dd MMM yyyy" <br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;className=&#123;'input-control'&#125; <br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;placeholderText="Masukkan tanggal" <br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;selected=&#123;data.endDate&#125; <br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;startDate=&#123;data.startDate&#125; <br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;endDate=&#123;data.endDate&#125; <br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;shouldCloseOnSelect=&#123;false&#125; <br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;onChange=&#123;data =&gt; this.onChange("endDate", data)&#125; <br/>
+                    &nbsp;&nbsp;&nbsp;&nbsp;/&gt; <br/>
+                    &nbsp;&nbsp;&nbsp;&lt;/InputGroup&gt; <br/>
+                    &nbsp;&nbsp;&lt;/FormGroup&gt; <br/>
+                    &nbsp;&lt;/div&gt; <br/>
+                    &lt;/div&gt; <br/>
+                </code>
                 <h2 className="u-mb-4 u-mt-12">Date Picker with Time Picker</h2>
                 <div className="row form-row">
                     <div className="col">
