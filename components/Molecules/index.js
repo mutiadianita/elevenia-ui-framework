@@ -15,6 +15,12 @@ Object.defineProperty(exports, "Breadcrumbs", {
     return _Breadcrumbs.default;
   }
 });
+Object.defineProperty(exports, "DropZone", {
+  enumerable: true,
+  get: function get() {
+    return _DropZone.default;
+  }
+});
 Object.defineProperty(exports, "OptionBox", {
   enumerable: true,
   get: function get() {
@@ -67,6 +73,8 @@ Object.defineProperty(exports, "Tray", {
 var _Accordion = _interopRequireDefault(require("./Accordion"));
 
 var _Breadcrumbs = _interopRequireDefault(require("./Breadcrumbs"));
+
+var _DropZone = _interopRequireDefault(require("./DropZone"));
 
 var _OptionBox = _interopRequireDefault(require("./OptionBox"));
 

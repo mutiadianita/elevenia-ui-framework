@@ -57,12 +57,6 @@ Object.defineProperty(exports, "Divider", {
     return _Divider.default;
   }
 });
-Object.defineProperty(exports, "DropZone", {
-  enumerable: true,
-  get: function get() {
-    return _DropZone.default;
-  }
-});
 Object.defineProperty(exports, "FormGroup", {
   enumerable: true,
   get: function get() {
@@ -201,8 +195,6 @@ var _DatePicker = _interopRequireDefault(require("./DatePicker"));
 var _DateOptionBox = _interopRequireDefault(require("./DateOptionBox"));
 
 var _Divider = _interopRequireDefault(require("./Divider"));
-
-var _DropZone = _interopRequireDefault(require("./DropZone"));
 
 var _FormGroup = _interopRequireDefault(require("./FormGroup"));
 
