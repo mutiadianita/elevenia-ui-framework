@@ -31,28 +31,28 @@ function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Re
 
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
 
-var Header = /*#__PURE__*/function (_React$Component) {
-  _inherits(Header, _React$Component);
+var HeaderBody = /*#__PURE__*/function (_React$Component) {
+  _inherits(HeaderBody, _React$Component);
 
-  var _super = _createSuper(Header);
+  var _super = _createSuper(HeaderBody);
 
-  function Header() {
-    _classCallCheck(this, Header);
+  function HeaderBody() {
+    _classCallCheck(this, HeaderBody);
 
     return _super.apply(this, arguments);
   }
 
-  _createClass(Header, [{
+  _createClass(HeaderBody, [{
     key: "render",
     value: function render() {
       return /*#__PURE__*/_react.default.createElement("div", {
-        className: "header " + this.props.styles
+        className: "header-body " + this.props.styles
       }, this.props.children);
     }
   }]);
 
-  return Header;
+  return HeaderBody;
 }(_react.default.Component);
 
-var _default = Header;
+var _default = HeaderBody;
 exports.default = _default;
