@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Breadcrumbs } from '../../Components/Molecules'
+import { Breadcrumbs } from '../../Components/Molecules';
+
 
 class BreadcrumbsPage extends Component {
     render() {
@@ -16,19 +17,19 @@ class BreadcrumbsPage extends Component {
                 <Breadcrumbs
                     pages={[
                         {
-                            name: 'Keranjang Keranjang Keranjang Keranjang',
+                            name: 'Keranjang Keranjang',
                             link: '/'
                         },
                         {
-                            name: 'Pembayaran Keranjang Keranjang Keranjang',
+                            name: 'Pembayaran Keranjang',
                             link: '/'
                         },
                         {
-                            name: 'Pembayaran Keranjang Keranjang Keranjang',
+                            name: 'Pembayaran Keranjang',
                             link: '/'
                         },
                         {
-                            name: 'Pembayaran Keranjang Keranjang Keranjang',
+                            name: 'Pembayaran Keranjang',
                             link: '/'
                         }
                     ]}

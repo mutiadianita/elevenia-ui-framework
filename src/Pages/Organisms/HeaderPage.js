@@ -39,7 +39,7 @@ class HeaderPage extends Component {
                 &lt;Header styles="u-ps-relative"&gt; <br/>
                 &nbsp;&lt;HeaderLeft&gt;<br/>
                 &nbsp;&nbsp;&lt;a href="http://www.elevenia.co.id"&gt; <br/>
-                &nbsp;&nbsp;&nbsp;&lt;img src="http://www.elevenia.co.id/img_11ia/logo.png" alt="elevenia" style=&#123;&#123; height: "30px", width: "120px" &#125;&125; /&gt; <br/>
+                &nbsp;&nbsp;&nbsp;&lt;img src="http://www.elevenia.co.id/img_11ia/logo.png" alt="elevenia" style=&#123;&#123; height: "30px", width: "120px" &#125;&#125; /&gt; <br/>
                 &nbsp;&nbsp;&lt;/a&gt; <br/>
                 &nbsp;&lt;/HeaderLeft&gt; <br/>
                 &nbsp;&lt;HeaderBody&gt; <br/>
